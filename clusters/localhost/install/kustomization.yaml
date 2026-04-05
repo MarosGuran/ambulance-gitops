@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/mg-ambulance-ufe
+- ../../../apps/mg-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/MarosGuran/ambulance-webapi//deployments/kustomize/components/mongodb
