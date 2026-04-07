@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: mg-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich mg" # napr. "Zoznam čakajúcich <pfx>"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Maros Guran" # Zadajte mená autorov
+  azureLink: "https://mg-ambulance-h7d3dba7fpa6bnhx.westeurope-01.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/marosguran/mg-ambulance-ufe"
+  backendRepoUrl: "https://github.com/marosguran/mg-ambulance-wl-webapi"
+  gitopsRepoUrl: "https://github.com/marosguran/mg-ambulance-gitops"
