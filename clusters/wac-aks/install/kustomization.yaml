@@ -13,6 +13,8 @@ labels:
 resources:
 - ../../../apps/mg-ambulance-ufe
 
+- ../../../apps/mg-ambulance-webapi
+
 
 components:
 - ../../../components/version-release
