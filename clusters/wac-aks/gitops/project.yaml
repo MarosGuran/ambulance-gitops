@@ -8,5 +8,5 @@ spec:
   authors: "Maros Guran" # Zadajte mená autorov
   azureLink: "https://mg-ambulance-h7d3dba7fpa6bnhx.westeurope-01.azurewebsites.net"
   frontendRepoUrl: "https://github.com/marosguran/ambulance-ufe"
-  backendRepoUrl: "https://github.com/marosguran/ambulance-wl-webapi"
+  backendRepoUrl: "https://github.com/marosguran/ambulance-webapi"
   gitopsRepoUrl: "https://github.com/marosguran/ambulance-gitops"
